@@ -6,7 +6,7 @@
     "license": "MIT",
     "author": "Microsoft",
     "scripts": {
-        "start": "pm2 start index.js --no-daemon",
+        "start": "node index.js",
         "lint": "eslint",
         "format": "prettier --single-quote --write *.js"    
     },
